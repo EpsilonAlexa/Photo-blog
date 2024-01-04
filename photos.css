@@ -1,0 +1,38 @@
+body{
+  background-image: linear-gradient(rgb(112, 112, 216), cornflowerblue, white);
+}
+h1 {
+   text-align: center;
+   font-family: Montserrat;
+   margin: 10px;
+}
+div.gallery {
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 100%;
+   height: auto;
+}
+
+div.polaroid {
+  margin: calc(10%/6);
+  width: 30%;
+  background-color: white;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid cornflowerblue;
+  box-sizing: border-box;
+}
+  
+  div.aboutimage {
+   text-align: center;
+   padding: 10px 20px;
+  }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 700px) {
+  .modal-content {
+  width: 100%;}
+  }
